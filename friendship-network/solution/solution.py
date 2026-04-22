@@ -1,13 +1,24 @@
 """
 Solution: Friendship Network Analysis
+
+Example usage:
+    network = load_friendships()
+    friends = get_friends("Alice", network)
 """
 
+import os
 from collections import deque
 
+DATA_FILE = "../data/friendships.txt"
 
-def load_friendships(filepath: str) -> dict:
+
+def load_friendships() -> dict:
+    """
+    Build an undirected graph from the data file.
+    Each person maps to a dict of {neighbor: strength} for O(1) lookups.
+    """
     network = {}
-    with open(filepath) as f:
+    with open(DATA_FILE) as f:
         for line in f:
             person1, person2, strength = line.strip().split(":")
             strength = int(strength)
@@ -21,12 +32,19 @@ def load_friendships(filepath: str) -> dict:
 
 
 def get_friends(user: str, network: dict) -> list:
+    """
+    Direct lookup in the adjacency list. O(1) to check existence, O(k) to list friends.
+    """
     if user not in network:
         return []
     return list(network[user].keys())
 
 
 def get_friends_of_friends(user: str, network: dict) -> list:
+    """
+    For each direct friend, collect their friends (excluding self and direct friends).
+    Uses set for O(1) membership checks. Overall O(V + E) where V=users, E=friendships.
+    """
     if user not in network:
         return []
 
@@ -43,6 +61,10 @@ def get_friends_of_friends(user: str, network: dict) -> list:
 
 
 def shortest_path(user1: str, user2: str, network: dict) -> int:
+    """
+    BFS from user1 until user2 is found. Returns shortest distance (number of hops).
+    Uses visited set to avoid revisiting nodes. O(V + E) time, O(V) space.
+    """
     if user1 == user2:
         return 0
 
@@ -62,6 +84,10 @@ def shortest_path(user1: str, user2: str, network: dict) -> int:
 
 
 def strongest_connection(user: str, network: dict) -> tuple:
+    """
+    Find the friend with highest connection strength. Uses max() with key function.
+    Returns None if user has no friends. O(k) where k = number of friends.
+    """
     if user not in network or not network[user]:
         return None
     friend = max(network[user], key=network[user].get)

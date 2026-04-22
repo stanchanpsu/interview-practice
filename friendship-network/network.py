@@ -9,63 +9,72 @@ person1:person2:strength
 TODO:
 1. Parse the data file and load into an appropriate data structure
 2. Implement get_friends(user) - returns list of direct friends
-3. Implement get_friends_of_friends(user) - returns unique friends-of-friends (excluding direct friends)
-4. Implement shortest_path(user1, user2) - BFS to find minimum connections
+3. Implement get_friends_of_friends(user) - returns friends of friends (excluding direct friends)
+4. Implement shortest_path(user1, user2) - find minimum connections between users
 5. Implement strongest_connection(user) - find user's strongest friendship
 """
 
-from pathlib import Path
 from collections import deque
-from typing import TextIO
 
 
-def load_friendships(filepath: str) -> dict:
+def load_friendships() -> dict:
     """
-    Load friendships from file into a data structure.
+    Load friendships from file.
 
-    TODO: Implement this function
-    - Parse the text file
-    - Build a graph representation (adjacency list)
-    - Return the data structure
+    Returns:
+        dict: Graph as adjacency list where keys are usernames (str)
+              and values are dicts mapping friend names to connection strength (int).
+              Example: {"Alice": {"Bob": 3, "Charlie": 5}, "Bob": {"Alice": 3}}
     """
     pass
 
 
 def get_friends(user: str, network: dict) -> list:
     """
-    Get list of direct friends for a user.
+    Args:
+        user: username string
+        network: graph from load_friendships()
 
-    TODO: Implement this function
+    Returns:
+        list: usernames of direct friends, empty list if user not in network
     """
     pass
 
 
 def get_friends_of_friends(user: str, network: dict) -> list:
     """
-    Get friends-of-friends, excluding direct friends.
+    Args:
+        user: username string
+        network: graph from load_friendships()
 
-    TODO: Implement this function
-    Hint: Can be done in O(V + E) using BFS
+    Returns:
+        list: usernames of friends-of-friends (excludes direct friends),
+              empty list if user has no FoF
     """
     pass
 
 
 def shortest_path(user1: str, user2: str, network: dict) -> int:
     """
-    Find shortest path between two users (number of hops).
-    Return -1 if no path exists.
+    Args:
+        user1: starting username
+        user2: target username
+        network: graph from load_friendships()
 
-    TODO: Implement this function
-    Hint: Use BFS for unweighted graph
+    Returns:
+        int: minimum hops between users, 0 if same user, -1 if no path
     """
     pass
 
 
 def strongest_connection(user: str, network: dict) -> tuple:
     """
-    Find user's strongest connection as (friend, strength).
-    Return None if user has no friends.
+    Args:
+        user: username string
+        network: graph from load_friendships()
 
-    TODO: Implement this function
+    Returns:
+        tuple: (friend_name: str, strength: int) of strongest connection,
+              None if user has no friends
     """
     pass
