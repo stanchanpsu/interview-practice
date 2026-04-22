@@ -1,0 +1,12 @@
+Alice:Bob:3
+Alice:Charlie:2
+Bob:Charlie:1
+Bob:David:4
+Charlie:Eve:3
+David:Eve:2
+Alice:Frank:5
+Eve:Grace:4
+Frank:Heidi:2
+Heidi:Ivy:3
+David:Jack:1
+Charlie:Jack:5
