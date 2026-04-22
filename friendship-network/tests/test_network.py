@@ -1,6 +1,6 @@
 import pytest
 from pathlib import Path
-from boilerplate import (
+from network import (
     load_friendships,
     get_friends,
     get_friends_of_friends,

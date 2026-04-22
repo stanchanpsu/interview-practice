@@ -30,25 +30,16 @@ def get_friends_of_friends(user: str, network: dict) -> list:
     if user not in network:
         return []
 
-    visited = set([user])
-    visited.update(network[user].keys())
+    direct_friends = set(network[user].keys())
+    visited = set([user]) | direct_friends
 
-    queue = deque([(user, 0)])
-    queue.extend((friend, 1) for friend in network[user])
+    fof = set()
+    for friend in direct_friends:
+        for fof_candidate in network[friend]:
+            if fof_candidate not in visited:
+                fof.add(fof_candidate)
 
-    fof = []
-    while queue:
-        person, depth = queue.popleft()
-        if person in visited:
-            continue
-        visited.add(person)
-        if depth == 1:
-            fof.append(person)
-        for friend in network.get(person, {}):
-            if friend not in visited:
-                queue.append((friend, depth + 1))
-
-    return fof
+    return list(fof)
 
 
 def shortest_path(user1: str, user2: str, network: dict) -> int:
