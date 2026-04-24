@@ -26,10 +26,10 @@ Bob:David:4
 
 ```bash
 # Test user implementation (should fail until implemented)
-python tests/test_network.py
+python3 tests/test_network.py
 
 # Test solution
-python tests/test_network.py --solution
+python3 tests/test_network.py --solution
 ```
 
 See `solution/solution.py` for a reference implementation.
