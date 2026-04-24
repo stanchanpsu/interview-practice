@@ -6,7 +6,7 @@ Real-world style interview problem involving graph traversal and data parsing.
 
 You have a dump of social network friendship data. Your task is to parse this data, build a friendship graph in memory, and answer common social network queries like finding mutual friends, degrees of separation, and strongest connections.
 
-This problem tests file I/O and string parsing skills alongside graph algorithms.
+Your task is to parse this data, build a graph in memory, and answer social network queries.
 
 ## Data Format
 
@@ -34,13 +34,20 @@ python tests/test_network.py --solution
 
 Requires Python 3 only (uses stdlib `unittest`). No extra dependencies.
 
-## Functions to Implement
+## Implementation Guidance
 
-1. `load_friendships()` - Parse file, return network graph as dict
-2. `get_friends(user, network)` - Get direct friends of user, returns list
-3. `get_friends_of_friends(user, network)` - Get friends-of-friends, excludes direct friends
-4. `shortest_path(user1, user2, network)` - Find minimum hops, returns -1 if unreachable
-5. `strongest_connection(user, network)` - Find friend with highest connection strength
+### Core (MVP - 20-30 min)
+These must pass for a basic solution:
+
+1. **`load_friendships()`** - Parse file into bidirectional network dict
+2. **`get_friends(user, network)`** - Get direct friends of user
+3. **`shortest_path(user1, user2, network)`** - Find minimum hops between users
+
+### Followups (if time permits)
+These add full functionality for a complete solution:
+
+1. **`get_friends_of_friends(user, network)`** - Get friends-of-friends, excluding direct friends
+2. **`strongest_connection(user, network)`** - Find friend with highest connection strength
 
 ## Usage Example
 

@@ -9,7 +9,7 @@ Example usage:
 import os
 from collections import deque
 
-DATA_FILE = "../data/friendships.txt"
+DATA_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "friendships.txt")
 
 
 def load_friendships() -> dict:
