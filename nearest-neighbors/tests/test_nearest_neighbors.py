@@ -21,7 +21,8 @@ if SOLUTION_MODE:
     from solution import SpatialIndex
 else:
     sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
-    from nearest_neighbors import euclidean_distance, SpatialIndex
+    from utils import euclidean_distance
+    from nearest_neighbors import SpatialIndex
 
 
 class TestEuclideanDistance(unittest.TestCase):

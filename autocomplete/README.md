@@ -33,6 +33,8 @@ python3 tests/test_autocomplete.py
 python3 tests/test_autocomplete.py --solution
 ```
 
+See `solution/solution.py` for a reference implementation.
+
 Requires Python 3 only (uses stdlib `unittest`). No extra dependencies.
 
 ## Implementation Guidance

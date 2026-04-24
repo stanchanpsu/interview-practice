@@ -32,6 +32,8 @@ python3 tests/test_nearest_neighbors.py
 python3 tests/test_nearest_neighbors.py --solution
 ```
 
+See `solution/solution.py` for a reference implementation.
+
 Requires Python 3 only (uses stdlib `unittest`). No extra dependencies.
 
 ## Implementation Guidance

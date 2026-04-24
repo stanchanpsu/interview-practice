@@ -32,6 +32,8 @@ python tests/test_network.py
 python tests/test_network.py --solution
 ```
 
+See `solution/solution.py` for a reference implementation.
+
 Requires Python 3 only (uses stdlib `unittest`). No extra dependencies.
 
 ## Implementation Guidance

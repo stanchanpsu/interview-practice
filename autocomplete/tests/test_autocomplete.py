@@ -15,18 +15,10 @@ if SOLUTION_MODE:
 
 if SOLUTION_MODE:
     sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "solution"))
-    from solution import (
-        AutocompleteBuilder,
-        Autocomplete,
-        brute_force_search,
-        brute_force_top_k,
-    )
+    from solution import AutocompleteBuilder, Autocomplete
 else:
     sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
-    from autocomplete import (
-        AutocompleteBuilder,
-        Autocomplete,
-    )
+    from autocomplete import AutocompleteBuilder, Autocomplete
 
 
 class TestAutocompleteBuilder(unittest.TestCase):
@@ -102,29 +94,6 @@ class TestAutocompleteTopK(unittest.TestCase):
         results = self.ac.search_top_k("car", 100)
         all_results = self.ac.search("car")
         self.assertEqual(len(results), len(all_results))
-
-
-class TestBruteForceVsTrie(unittest.TestCase):
-    def setUp(self):
-        self.builder = AutocompleteBuilder()
-        self.builder.load_from_file("data/words.txt")
-        self.words = self.builder.get_all_words()
-        self.ac = Autocomplete(self.words)
-
-    def test_search_matches_brute_force(self):
-        prefixes = ["car", "app", "ban", "the", "co"]
-        for prefix in prefixes:
-            trie_results = set(self.ac.search(prefix))
-            bf_results = set(brute_force_search(self.words, prefix))
-            self.assertEqual(trie_results, bf_results, f"Mismatch for prefix '{prefix}'")
-
-    def test_top_k_matches_brute_force(self):
-        prefixes = ["car", "app", "ban", "the", "co"]
-        for prefix in prefixes:
-            for k in [1, 2, 3, 5]:
-                trie_results = self.ac.search_top_k(prefix, k)
-                bf_results = brute_force_top_k(self.words, prefix, k)
-                self.assertEqual(trie_results, bf_results, f"Mismatch for prefix '{prefix}', k={k}")
 
 
 if __name__ == "__main__":

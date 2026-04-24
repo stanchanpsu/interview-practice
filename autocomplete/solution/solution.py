@@ -103,27 +103,3 @@ class Autocomplete:
     def search_top_k(self, prefix: str, k: int) -> List[tuple]:
         results = self.trie.search_prefix(prefix)
         return [(word, freq) for freq, word in sorted(results, reverse=True)[:k]]
-
-
-def brute_force_search(words: List[tuple], prefix: str) -> List[tuple]:
-    """
-    Brute force approach: filter all words, then sort.
-
-    Time: O(N * M) to check prefix + O(N log N) to sort matches
-    Space: O(N) for the filtered list
-
-    Where N = number of words, M = average word length
-    """
-    matches = [(w, f) for w, f in words if w.startswith(prefix)]
-    return sorted(matches, key=lambda x: x[1], reverse=True)
-
-
-def brute_force_top_k(words: List[tuple], prefix: str, k: int) -> List[tuple]:
-    """
-    Brute force top-k: filter all, sort, take k.
-
-    Time: O(N * M) to check prefix + O(N log N) to sort + O(k) to slice
-    Space: O(N) for the filtered list
-    """
-    matches = [(w, f) for w, f in words if w.startswith(prefix)]
-    return sorted(matches, key=lambda x: x[1], reverse=True)[:k]

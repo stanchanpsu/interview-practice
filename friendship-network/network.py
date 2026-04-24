@@ -14,8 +14,6 @@ TODO:
 5. Implement strongest_connection(user) - find user's strongest friendship
 """
 
-from collections import deque
-
 
 def load_friendships() -> dict:
     """
