@@ -9,3 +9,4 @@ These problems are modelled after real-world interview problems I've encountered
 ## Problems
 
 - [Friendship Network](./friendship-network/)
+- [Autocomplete](./autocomplete/)
