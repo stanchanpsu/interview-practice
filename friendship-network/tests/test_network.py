@@ -42,6 +42,7 @@ class TestLoadFriendships(unittest.TestCase):
         network = load_friendships()
         self.assertIn("Alice", network)
         self.assertIn("Bob", network["Alice"])
+        self.assertIn("Alice", network["Bob"])
 
 
 class TestGetFriends(unittest.TestCase):
@@ -57,6 +58,13 @@ class TestGetFriends(unittest.TestCase):
         friends = get_friends("Nobody", network)
         self.assertEqual(friends, [])
 
+    def test_bidirectional(self):
+        network = load_friendships()
+        alice_friends = get_friends("Alice", network)
+        bob_friends = get_friends("Bob", network)
+        self.assertIn("Bob", alice_friends)
+        self.assertIn("Alice", bob_friends)
+
 
 class TestGetFriendsOfFriends(unittest.TestCase):
     def test_excludes_direct_friends(self):
@@ -71,6 +79,13 @@ class TestGetFriendsOfFriends(unittest.TestCase):
         fof = get_friends_of_friends("Alice", network)
         self.assertIn("David", fof)
         self.assertIn("Eve", fof)
+
+    def test_bidirectional(self):
+        network = load_friendships()
+        alice_fof = get_friends_of_friends("Alice", network)
+        david_fof = get_friends_of_friends("David", network)
+        self.assertIn("David", alice_fof)
+        self.assertIn("Alice", david_fof)
 
 
 class TestShortestPath(unittest.TestCase):
@@ -90,6 +105,13 @@ class TestShortestPath(unittest.TestCase):
         network = load_friendships()
         self.assertEqual(shortest_path("Alice", "NonExistent", network), -1)
 
+    def test_bidirectional(self):
+        network = load_friendships()
+        self.assertEqual(shortest_path("Alice", "Bob", network), 1)
+        self.assertEqual(shortest_path("Bob", "Alice", network), 1)
+        self.assertEqual(shortest_path("Alice", "David", network), 2)
+        self.assertEqual(shortest_path("David", "Alice", network), 2)
+
 
 class TestStrongestConnection(unittest.TestCase):
     def test_alice_strongest(self):
@@ -101,6 +123,13 @@ class TestStrongestConnection(unittest.TestCase):
     def test_no_friends(self):
         network = load_friendships()
         self.assertIsNone(strongest_connection("Nobody", network))
+
+    def test_bidirectional(self):
+        network = load_friendships()
+        friend_a, strength_a = strongest_connection("Alice", network)
+        friend_b, strength_b = strongest_connection(friend_a, network)
+        self.assertEqual(friend_b, "Alice")
+        self.assertEqual(strength_a, strength_b)
 
 
 if __name__ == "__main__":
