@@ -1,6 +1,12 @@
 # Friendship Network
 
-Coding interview practice problem.
+Real-world style interview problem involving graph traversal and data parsing.
+
+## Context
+
+You have a dump of social network friendship data. Your task is to parse this data, build a friendship graph in memory, and answer common social network queries like finding mutual friends, degrees of separation, and strongest connections.
+
+This problem tests file I/O and string parsing skills alongside graph algorithms.
 
 ## Run Tests
 
