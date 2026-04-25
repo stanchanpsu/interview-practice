@@ -1,6 +1,9 @@
 """
 Autocomplete System
 
+Builds an autocomplete data structure from a file of words with frequencies.
+Supports prefix-based search and top-k results sorted by frequency.
+
 Example usage:
     builder = AutocompleteBuilder()
     builder.load_from_file("data/words.txt")
@@ -9,14 +12,14 @@ Example usage:
     top_results = ac.search_top_k("app", 3)
 """
 
-from typing import List
+from typing import List, Tuple
 
 
 class AutocompleteBuilder:
     """
-    Builds the autocomplete data structure from a file.
+    Builds the autocomplete data structure from a file or manual input.
 
-    Each line in the file is: word,frequency
+    Data format (CSV): word,frequency per line
     """
 
     def __init__(self):
@@ -25,33 +28,79 @@ class AutocompleteBuilder:
     def load_from_file(self, filepath: str) -> None:
         """
         Load words and frequencies from a CSV file.
-        Each line: word,frequency
+
+        Each line in the file should be: word,frequency
+
+        Args:
+            filepath: Path to the CSV file with word,frequency per line.
+
+        Returns:
+            None (modifies internal state)
         """
-        pass
+        raise NotImplementedError()
 
     def add_word(self, word: str, frequency: int) -> None:
-        """Add a single word with its frequency."""
-        pass
+        """
+        Add a single word with its frequency.
 
-    def get_all_words(self) -> List[tuple]:
-        """Return all words with frequencies as list of (word, frequency) tuples."""
-        pass
+        Args:
+            word: The word to add.
+            frequency: Integer frequency count (e.g., search popularity).
+
+        Returns:
+            None (modifies internal state)
+        """
+        raise NotImplementedError()
+
+    def get_all_words(self) -> List[Tuple[str, int]]:
+        """
+        Return all words with their frequencies.
+
+        Returns:
+            List of (word, frequency) tuples.
+        """
+        raise NotImplementedError()
 
 
 class Autocomplete:
-    def __init__(self, words: List[tuple]):
+    """
+    Autocomplete search over a fixed word list.
+
+    Supports prefix-based search and top-k results sorted by frequency.
+    """
+
+    def __init__(self, words: List[Tuple[str, int]]):
+        """
+        Initialize with a list of (word, frequency) tuples.
+
+        Args:
+            words: List of (word, frequency) tuples from AutocompleteBuilder.
+        """
         self.words = words
 
-    def search(self, prefix: str) -> List[tuple]:
+    def search(self, prefix: str) -> List[Tuple[str, int]]:
         """
-        Find all words starting with prefix, sorted by frequency descending.
-        Returns list of (word, frequency) tuples.
-        """
-        pass
+        Find all words starting with the given prefix, sorted by frequency descending.
 
-    def search_top_k(self, prefix: str, k: int) -> List[tuple]:
+        Args:
+            prefix: The prefix string to search for (e.g., "car").
+
+        Returns:
+            List of (word, frequency) tuples, sorted by frequency descending.
+            Returns empty list if no matches found.
         """
-        Find top k words starting with prefix, sorted by frequency descending.
-        Returns list of (word, frequency) tuples.
+        raise NotImplementedError()
+
+    def search_top_k(self, prefix: str, k: int) -> List[Tuple[str, int]]:
         """
-        pass
+        Find the top k words starting with the given prefix, sorted by frequency descending.
+
+        Args:
+            prefix: The prefix string to search for.
+            k: Maximum number of results to return.
+
+        Returns:
+            List of up to k (word, frequency) tuples, sorted by frequency descending.
+            Returns empty list if no matches found.
+        """
+        raise NotImplementedError()
