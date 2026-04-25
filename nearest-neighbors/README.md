@@ -45,12 +45,12 @@ These must pass for a basic solution:
 2. **`load_from_file(filepath)`** - Load places from CSV file
 3. **`get_all_places()`** - Return all places as dict
 4. **`get_coords(name)`** - Lookup coordinates by place name
-5. **`find_k_nearest(name, k)`** - Find k nearest places by place name
+5. **`find_within_radius(name, radius)`** - Find all places within radius
 
 ### Followups (if time permits)
 These add full functionality for a complete solution:
 
-1. **`find_within_radius(name, radius)`** - Find all places within radius
+1. **`find_k_nearest(name, k)`** - Find k nearest places by place name
 
 ## Usage Example
 
