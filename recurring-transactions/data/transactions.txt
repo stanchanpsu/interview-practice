@@ -1,0 +1,329 @@
+2023-01-03 | rent_payment | 1500.00 | housing
+2023-01-06 | weekly_yoga_class | 15.00 | health
+2023-01-07 | netflix_subscription | 15.99 | entertainment
+2023-01-10 | coffee_shop | 6.50 | food
+2023-01-10 | grocery_store_whole foods | 87.43 | food
+2023-01-13 | weekly_yoga_class | 15.00 | health
+2023-01-15 | gym_membership | 49.99 | health
+2023-01-17 | electric_bill | 124.50 | utilities
+2023-01-20 | grocery_store_trader joes | 62.18 | food
+2023-01-20 | weekly_yoga_class | 15.00 | health
+2023-01-22 | amazon_purchase | 34.99 | shopping
+2023-01-25 | coffee_shop | 7.25 | food
+2023-01-27 | weekly_yoga_class | 15.00 | health
+2023-01-28 | uber_eats | 28.50 | food
+2023-01-31 | rent_payment | 1500.00 | housing
+2023-02-01 | spotify_premium | 9.99 | entertainment
+2023-02-03 | weekly_yoga_class | 15.00 | health
+2023-02-03 | whole foods_grocery | 95.20 | food
+2023-02-05 | coffee_shop | 6.75 | food
+2023-02-07 | netflix_subscription | 15.99 | entertainment
+2023-02-10 | electric_bill | 118.30 | utilities
+2023-02-10 | weekly_yoga_class | 15.00 | health
+2023-02-14 | restaurant_dinner | 85.00 | food
+2023-02-15 | gym_membership | 49.99 | health
+2023-02-17 | weekly_yoga_class | 15.00 | health
+2023-02-18 | grocery_store_whole foods | 72.50 | food
+2023-02-20 | coffee_shop | 7.00 | food
+2023-02-22 | hulu_subscription | 17.99 | entertainment
+2023-02-24 | weekly_yoga_class | 15.00 | health
+2023-02-25 | uber_eats | 42.30 | food
+2023-02-28 | rent_payment | 1500.00 | housing
+2023-03-01 | spotify_premium | 9.99 | entertainment
+2023-03-03 | weekly_yoga_class | 15.00 | health
+2023-03-03 | whole foods_grocery | 88.75 | food
+2023-03-05 | coffee_shop | 6.50 | food
+2023-03-07 | netflix_subscription | 15.99 | entertainment
+2023-03-10 | electric_bill | 135.00 | utilities
+2023-03-10 | weekly_yoga_class | 15.00 | health
+2023-03-12 | target_purchase | 156.78 | shopping
+2023-03-15 | gym_membership | 49.99 | health
+2023-03-17 | grocery_store_trader joes | 58.90 | food
+2023-03-17 | weekly_yoga_class | 15.00 | health
+2023-03-20 | coffee_shop | 7.25 | food
+2023-03-22 | amazon_purchase | 89.99 | shopping
+2023-03-24 | weekly_yoga_class | 15.00 | health
+2023-03-25 | uber_eats | 35.80 | food
+2023-03-28 | rent_payment | 1500.00 | housing
+2023-03-31 | weekly_yoga_class | 15.00 | health
+2023-04-01 | spotify_premium | 9.99 | entertainment
+2023-04-03 | whole foods_grocery | 92.30 | food
+2023-04-05 | coffee_shop | 6.50 | food
+2023-04-07 | netflix_subscription | 15.99 | entertainment
+2023-04-07 | weekly_yoga_class | 15.00 | health
+2023-04-10 | electric_bill | 142.60 | utilities
+2023-04-14 | restaurant_lunch | 18.50 | food
+2023-04-14 | weekly_yoga_class | 15.00 | health
+2023-04-15 | gym_membership | 49.99 | health
+2023-04-18 | grocery_store_whole foods | 67.80 | food
+2023-04-20 | coffee_shop | 7.00 | food
+2023-04-21 | weekly_yoga_class | 15.00 | health
+2023-04-22 | hulu_subscription | 17.99 | entertainment
+2023-04-25 | uber_eats | 31.20 | food
+2023-04-28 | rent_payment | 1500.00 | housing
+2023-04-28 | weekly_yoga_class | 15.00 | health
+2023-05-01 | spotify_premium | 9.99 | entertainment
+2023-05-03 | whole foods_grocery | 84.50 | food
+2023-05-05 | coffee_shop | 6.75 | food
+2023-05-05 | weekly_yoga_class | 15.00 | health
+2023-05-07 | netflix_subscription | 15.99 | entertainment
+2023-05-10 | electric_bill | 128.90 | utilities
+2023-05-12 | best_buy_electronics | 299.99 | shopping
+2023-05-12 | weekly_yoga_class | 15.00 | health
+2023-05-15 | gym_membership | 49.99 | health
+2023-05-17 | grocery_store_trader joes | 71.25 | food
+2023-05-19 | weekly_yoga_class | 15.00 | health
+2023-05-20 | coffee_shop | 7.25 | food
+2023-05-22 | amazon_purchase | 45.99 | shopping
+2023-05-25 | uber_eats | 38.90 | food
+2023-05-26 | weekly_yoga_class | 15.00 | health
+2023-05-31 | rent_payment | 1500.00 | housing
+2023-06-01 | spotify_premium | 9.99 | entertainment
+2023-06-02 | weekly_yoga_class | 15.00 | health
+2023-06-03 | whole foods_grocery | 96.70 | food
+2023-06-05 | coffee_shop | 6.50 | food
+2023-06-07 | netflix_subscription | 15.99 | entertainment
+2023-06-09 | weekly_yoga_class | 15.00 | health
+2023-06-10 | electric_bill | 155.30 | utilities
+2023-06-12 | costco_shopping | 189.50 | shopping
+2023-06-15 | gym_membership | 49.99 | health
+2023-06-16 | weekly_yoga_class | 15.00 | health
+2023-06-17 | grocery_store_whole foods | 78.40 | food
+2023-06-20 | coffee_shop | 7.00 | food
+2023-06-22 | hulu_subscription | 17.99 | entertainment
+2023-06-23 | weekly_yoga_class | 15.00 | health
+2023-06-25 | uber_eats | 29.70 | food
+2023-06-28 | rent_payment | 1500.00 | housing
+2023-06-30 | weekly_yoga_class | 15.00 | health
+2023-07-01 | spotify_premium | 9.99 | entertainment
+2023-07-03 | whole foods_grocery | 91.20 | food
+2023-07-05 | coffee_shop | 6.75 | food
+2023-07-07 | netflix_subscription | 15.99 | entertainment
+2023-07-07 | weekly_yoga_class | 15.00 | health
+2023-07-10 | electric_bill | 148.70 | utilities
+2023-07-14 | weekly_yoga_class | 15.00 | health
+2023-07-15 | gym_membership | 49.99 | health
+2023-07-17 | grocery_store_trader joes | 65.80 | food
+2023-07-20 | coffee_shop | 7.25 | food
+2023-07-21 | weekly_yoga_class | 15.00 | health
+2023-07-22 | amazon_purchase | 129.99 | shopping
+2023-07-25 | uber_eats | 44.60 | food
+2023-07-28 | weekly_yoga_class | 15.00 | health
+2023-07-31 | rent_payment | 1500.00 | housing
+2023-08-01 | spotify_premium | 9.99 | entertainment
+2023-08-03 | whole foods_grocery | 87.50 | food
+2023-08-04 | weekly_yoga_class | 15.00 | health
+2023-08-05 | coffee_shop | 6.50 | food
+2023-08-07 | netflix_subscription | 15.99 | entertainment
+2023-08-10 | electric_bill | 138.20 | utilities
+2023-08-11 | weekly_yoga_class | 15.00 | health
+2023-08-12 | home_depot_purchase | 78.45 | shopping
+2023-08-15 | gym_membership | 49.99 | health
+2023-08-17 | grocery_store_whole foods | 69.90 | food
+2023-08-18 | weekly_yoga_class | 15.00 | health
+2023-08-20 | coffee_shop | 7.00 | food
+2023-08-22 | hulu_subscription | 17.99 | entertainment
+2023-08-25 | uber_eats | 33.40 | food
+2023-08-25 | weekly_yoga_class | 15.00 | health
+2023-08-28 | rent_payment | 1500.00 | housing
+2023-09-01 | spotify_premium | 9.99 | entertainment
+2023-09-01 | weekly_yoga_class | 15.00 | health
+2023-09-03 | whole foods_grocery | 93.80 | food
+2023-09-05 | coffee_shop | 6.75 | food
+2023-09-07 | netflix_subscription | 15.99 | entertainment
+2023-09-08 | weekly_yoga_class | 15.00 | health
+2023-09-10 | electric_bill | 152.40 | utilities
+2023-09-14 | restaurant_dinner | 95.00 | food
+2023-09-15 | gym_membership | 49.99 | health
+2023-09-15 | weekly_yoga_class | 15.00 | health
+2023-09-17 | grocery_store_trader joes | 73.60 | food
+2023-09-20 | coffee_shop | 7.25 | food
+2023-09-22 | amazon_prime_day | 256.78 | shopping
+2023-09-22 | weekly_yoga_class | 15.00 | health
+2023-09-25 | uber_eats | 37.80 | food
+2023-09-29 | weekly_yoga_class | 15.00 | health
+2023-09-30 | rent_payment | 1500.00 | housing
+2023-10-01 | spotify_premium | 9.99 | entertainment
+2023-10-03 | whole foods_grocery | 86.30 | food
+2023-10-05 | coffee_shop | 6.50 | food
+2023-10-06 | weekly_yoga_class | 15.00 | health
+2023-10-07 | netflix_subscription | 15.99 | entertainment
+2023-10-10 | electric_bill | 145.80 | utilities
+2023-10-13 | weekly_yoga_class | 15.00 | health
+2023-10-14 | halloween_costume | 49.99 | shopping
+2023-10-15 | gym_membership | 49.99 | health
+2023-10-17 | grocery_store_whole foods | 71.50 | food
+2023-10-20 | coffee_shop | 7.00 | food
+2023-10-20 | weekly_yoga_class | 15.00 | health
+2023-10-22 | hulu_subscription | 17.99 | entertainment
+2023-10-25 | uber_eats | 41.20 | food
+2023-10-27 | weekly_yoga_class | 15.00 | health
+2023-10-28 | rent_payment | 1500.00 | housing
+2023-11-01 | spotify_premium | 9.99 | entertainment
+2023-11-03 | weekly_yoga_class | 15.00 | health
+2023-11-03 | whole foods_grocery | 94.20 | food
+2023-11-05 | coffee_shop | 6.75 | food
+2023-11-07 | netflix_subscription | 15.99 | entertainment
+2023-11-10 | electric_bill | 158.90 | utilities
+2023-11-10 | weekly_yoga_class | 15.00 | health
+2023-11-12 | black_friday_shopping | 599.00 | shopping
+2023-11-15 | gym_membership | 49.99 | health
+2023-11-17 | grocery_store_trader joes | 68.70 | food
+2023-11-17 | weekly_yoga_class | 15.00 | health
+2023-11-20 | coffee_shop | 7.25 | food
+2023-11-22 | amazon_purchase | 89.99 | shopping
+2023-11-24 | weekly_yoga_class | 15.00 | health
+2023-11-25 | uber_eats | 36.90 | food
+2023-11-30 | rent_payment | 1500.00 | housing
+2023-12-01 | spotify_premium | 9.99 | entertainment
+2023-12-01 | weekly_yoga_class | 15.00 | health
+2023-12-03 | whole foods_grocery | 112.50 | food
+2023-12-05 | coffee_shop | 6.50 | food
+2023-12-07 | netflix_subscription | 15.99 | entertainment
+2023-12-08 | weekly_yoga_class | 15.00 | health
+2023-12-10 | electric_bill | 162.30 | utilities
+2023-12-12 | holiday_gifts | 345.67 | shopping
+2023-12-15 | gym_membership | 49.99 | health
+2023-12-15 | weekly_yoga_class | 15.00 | health
+2023-12-17 | grocery_store_whole foods | 98.40 | food
+2023-12-20 | coffee_shop | 7.00 | food
+2023-12-22 | hulu_subscription | 17.99 | entertainment
+2023-12-22 | weekly_yoga_class | 15.00 | health
+2023-12-25 | uber_eats | 52.80 | food
+2023-12-28 | rent_payment | 1500.00 | housing
+2023-12-29 | weekly_yoga_class | 15.00 | health
+2023-12-31 | new_years_eve_dinner | 210.00 | food
+2024-01-01 | spotify_premium | 9.99 | entertainment
+2024-01-03 | whole foods_grocery | 89.70 | food
+2024-01-05 | coffee_shop | 6.75 | food
+2024-01-07 | netflix_subscription | 15.99 | entertainment
+2024-01-10 | electric_bill | 154.60 | utilities
+2024-01-14 | winter_clothing | 178.50 | shopping
+2024-01-15 | gym_membership | 49.99 | health
+2024-01-17 | grocery_store_trader joes | 74.80 | food
+2024-01-20 | coffee_shop | 7.25 | food
+2024-01-22 | amazon_purchase | 67.99 | shopping
+2024-01-25 | uber_eats | 39.40 | food
+2024-01-31 | rent_payment | 1500.00 | housing
+2024-02-01 | spotify_premium | 9.99 | entertainment
+2024-02-03 | whole foods_grocery | 91.30 | food
+2024-02-05 | coffee_shop | 6.50 | food
+2024-02-07 | netflix_subscription | 15.99 | entertainment
+2024-02-10 | electric_bill | 148.90 | utilities
+2024-02-14 | valentines_dinner | 185.00 | food
+2024-02-15 | gym_membership | 49.99 | health
+2024-02-17 | grocery_store_whole foods | 77.60 | food
+2024-02-20 | coffee_shop | 7.00 | food
+2024-02-22 | hulu_subscription | 17.99 | entertainment
+2024-02-25 | uber_eats | 34.70 | food
+2024-02-28 | rent_payment | 1500.00 | housing
+2024-03-01 | spotify_premium | 9.99 | entertainment
+2024-03-03 | whole foods_grocery | 93.50 | food
+2024-03-05 | coffee_shop | 6.75 | food
+2024-03-07 | netflix_subscription | 15.99 | entertainment
+2024-03-10 | electric_bill | 156.20 | utilities
+2024-03-15 | gym_membership | 49.99 | health
+2024-03-17 | grocery_store_trader joes | 72.30 | food
+2024-03-20 | coffee_shop | 7.25 | food
+2024-03-22 | amazon_purchase | 145.99 | shopping
+2024-03-25 | uber_eats | 41.80 | food
+2024-03-28 | rent_payment | 1500.00 | housing
+2024-04-01 | spotify_premium | 9.99 | entertainment
+2024-04-03 | whole foods_grocery | 88.90 | food
+2024-04-05 | coffee_shop | 6.50 | food
+2024-04-07 | netflix_subscription | 15.99 | entertainment
+2024-04-10 | electric_bill | 142.70 | utilities
+2024-04-15 | gym_membership | 49.99 | health
+2024-04-17 | grocery_store_whole foods | 76.40 | food
+2024-04-20 | coffee_shop | 7.00 | food
+2024-04-22 | hulu_subscription | 17.99 | entertainment
+2024-04-25 | uber_eats | 38.90 | food
+2024-04-28 | rent_payment | 1500.00 | housing
+2024-05-01 | spotify_premium | 9.99 | entertainment
+2024-05-03 | whole foods_grocery | 92.70 | food
+2024-05-05 | coffee_shop | 6.75 | food
+2024-05-07 | netflix_subscription | 15.99 | entertainment
+2024-05-10 | electric_bill | 151.30 | utilities
+2024-05-14 | amazon_purchase | 78.99 | shopping
+2024-05-15 | gym_membership | 49.99 | health
+2024-05-17 | grocery_store_trader joes | 69.80 | food
+2024-05-20 | coffee_shop | 7.25 | food
+2024-05-25 | uber_eats | 43.50 | food
+2024-05-31 | rent_payment | 1500.00 | housing
+2024-06-01 | spotify_premium | 9.99 | entertainment
+2024-06-03 | whole foods_grocery | 97.20 | food
+2024-06-05 | coffee_shop | 6.50 | food
+2024-06-07 | netflix_subscription | 15.99 | entertainment
+2024-06-10 | electric_bill | 158.40 | utilities
+2024-06-15 | gym_membership | 49.99 | health
+2024-06-17 | grocery_store_whole foods | 81.30 | food
+2024-06-20 | coffee_shop | 7.00 | food
+2024-06-22 | hulu_subscription | 17.99 | entertainment
+2024-06-25 | uber_eats | 36.20 | food
+2024-06-28 | rent_payment | 1500.00 | housing
+2024-07-01 | spotify_premium | 9.99 | entertainment
+2024-07-03 | whole foods_grocery | 90.80 | food
+2024-07-05 | coffee_shop | 6.75 | food
+2024-07-07 | netflix_subscription | 15.99 | entertainment
+2024-07-10 | electric_bill | 162.90 | utilities
+2024-07-15 | gym_membership | 49.99 | health
+2024-07-17 | grocery_store_trader joes | 71.90 | food
+2024-07-20 | coffee_shop | 7.25 | food
+2024-07-22 | amazon_purchase | 112.99 | shopping
+2024-07-25 | uber_eats | 40.30 | food
+2024-07-31 | rent_payment | 1500.00 | housing
+2024-08-01 | spotify_premium | 9.99 | entertainment
+2024-08-03 | whole foods_grocery | 94.50 | food
+2024-08-05 | coffee_shop | 6.50 | food
+2024-08-07 | netflix_subscription | 15.99 | entertainment
+2024-08-10 | electric_bill | 155.70 | utilities
+2024-08-15 | gym_membership | 49.99 | health
+2024-08-17 | grocery_store_whole foods | 79.60 | food
+2024-08-20 | coffee_shop | 7.00 | food
+2024-08-22 | hulu_subscription | 17.99 | entertainment
+2024-08-25 | uber_eats | 37.90 | food
+2024-08-28 | rent_payment | 1500.00 | housing
+2024-09-01 | spotify_premium | 9.99 | entertainment
+2024-09-03 | whole foods_grocery | 91.70 | food
+2024-09-05 | coffee_shop | 6.75 | food
+2024-09-07 | netflix_subscription | 15.99 | entertainment
+2024-09-10 | electric_bill | 148.30 | utilities
+2024-09-15 | gym_membership | 49.99 | health
+2024-09-17 | grocery_store_trader joes | 74.20 | food
+2024-09-20 | coffee_shop | 7.25 | food
+2024-09-22 | amazon_purchase | 95.99 | shopping
+2024-09-25 | uber_eats | 42.70 | food
+2024-09-30 | rent_payment | 1500.00 | housing
+2024-10-01 | spotify_premium | 9.99 | entertainment
+2024-10-03 | whole foods_grocery | 88.40 | food
+2024-10-05 | coffee_shop | 6.50 | food
+2024-10-07 | netflix_subscription | 15.99 | entertainment
+2024-10-10 | electric_bill | 153.80 | utilities
+2024-10-15 | gym_membership | 49.99 | health
+2024-10-17 | grocery_store_whole foods | 75.90 | food
+2024-10-20 | coffee_shop | 7.00 | food
+2024-10-22 | hulu_subscription | 17.99 | entertainment
+2024-10-25 | uber_eats | 39.80 | food
+2024-10-28 | rent_payment | 1500.00 | housing
+2024-11-01 | spotify_premium | 9.99 | entertainment
+2024-11-03 | whole foods_grocery | 93.20 | food
+2024-11-05 | coffee_shop | 6.75 | food
+2024-11-07 | netflix_subscription | 15.99 | entertainment
+2024-11-10 | electric_bill | 160.50 | utilities
+2024-11-15 | gym_membership | 49.99 | health
+2024-11-17 | grocery_store_trader joes | 70.60 | food
+2024-11-20 | coffee_shop | 7.25 | food
+2024-11-25 | uber_eats | 41.30 | food
+2024-11-30 | rent_payment | 1500.00 | housing
+2024-12-01 | spotify_premium | 9.99 | entertainment
+2024-12-03 | whole foods_grocery | 98.80 | food
+2024-12-05 | coffee_shop | 6.50 | food
+2024-12-07 | netflix_subscription | 15.99 | entertainment
+2024-12-10 | electric_bill | 165.20 | utilities
+2024-12-15 | gym_membership | 49.99 | health
+2024-12-17 | grocery_store_whole foods | 85.30 | food
+2024-12-20 | coffee_shop | 7.00 | food
+2024-12-22 | hulu_subscription | 17.99 | entertainment
+2024-12-25 | christmas_gifts | 432.10 | shopping
+2024-12-28 | rent_payment | 1500.00 | housing
+2024-12-31 | new_years_eve_dinner | 195.00 | food

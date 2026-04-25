@@ -11,3 +11,7 @@ These problems are modelled after real-world interview problems I've encountered
 - [Friendship Network](./friendship-network/)
 - [Autocomplete](./autocomplete/)
 - [Nearest Neighbors](./nearest-neighbors/)
+
+## Contributing
+
+Found an issue or have an improvement? Fork the repo and submit a PR!
