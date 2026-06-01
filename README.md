@@ -11,6 +11,7 @@ These problems are modelled after real-world interview problems I've encountered
 - [Friendship Network](./friendship-network/)
 - [Autocomplete](./autocomplete/)
 - [Nearest Neighbors](./nearest-neighbors/)
+- [Kingdomino](./kingdomino/)
 
 ## Contributing
 
